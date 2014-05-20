@@ -7,6 +7,8 @@
            fetch="git://github.com/rascarlo/" />
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
+  <remote name="kitkatpurity"
+           fetch="git://github.com/KitKatPurity/" />
   <remote name="github"
            fetch="git://github.com/" />
   <default revision="refs/tags/android-4.4.2_r2"
@@ -238,7 +240,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="omnirom/android_frameworks_base" remote="github" revision="android-4.4" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="kitkatpurity" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -257,7 +259,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="omnirom/android_frameworks_opt_telephony" remote="github" revision="android-4.4" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="kitkatpurity" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -304,13 +306,13 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="omnirom/android_packages_apps_Dialer" remote="github" revision="android-4.4" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="omnirom/android_packages_apps_InCallUI" remote="github" revision="android-4.4" />
+  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -319,7 +321,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/OmniGears" name="omnirom/android_packages_apps_OmniGears" remote="github" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
@@ -327,7 +328,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="omnirom/android_packages_apps_Settings" remote="github" revision="android-4.4" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -353,7 +354,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="omnirom/android_packages_services_Telephony" remote="github" revision="android-4.4" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
