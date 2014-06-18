@@ -15,6 +15,8 @@
   <remote  name="cm"
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
+  <remote  name="blobs"
+           fetch="https://github.com/TheMuppets" />
   <remote name="aospa"
            fetch="https://github.com/AOSPA/" />
   <remote name="CyanogenMod"
