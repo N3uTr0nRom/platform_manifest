@@ -395,6 +395,8 @@
   <project path="packages/apps/DeskClock" name="TEAM-Gummy/packages_apps_DeskClock" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
   <project path="packages/apps/DSPManager" name="TEAM-Gummy/packages_apps_DSPManager" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Email" name="TEAM-Gummy/packages_apps_Email" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="TEAM-Gummy/packages_apps_Gallery2" remote="tg" revision="kk4.4" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
