@@ -59,7 +59,7 @@
   <project path="device/sample" name="TEAM-Gummy/android_device_sample" remote="tg" revision="kk4.4" />
 
   <!-- Gummy Devices -->
-  <project path="device/motorola/falcon" name="razrqcom-dev-team/android_device_motorola_falcon" remote="tg" revision="cm-11.0" />
+  <project path="device/motorola/falcon" name="TEAM-Gummy/android_device_motorola_falcon" remote="tg" revision="kk4.4" />
 
   <!-- Kernel Sources -->
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
