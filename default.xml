@@ -60,6 +60,7 @@
 
   <!-- Gummy Devices -->
   <project path="device/motorola/falcon" name="TEAM-Gummy/android_device_motorola_falcon" remote="tg" revision="kk4.4" />
+  <project path="device/motorola/qcom-common" name="TEAM-Gummy/android_device_motorola_qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/motorola/msm8226-common" name="TEAM-Gummy/android_device_motorola_msm8226-common" remote="tg" revision="kk4.4" />
   <project path="device/motorola/moto_msm8960" name="TEAM-Gummy/android_device_motorola_moto_msm8960" remote="tg" revision="kk4.4" />
   <project path="device/motorola/moto_msm8960dt" name="TEAM-Gummy/android_device_motorola_moto_msm8960dt" remote="tg" revision="kk4.4" />
