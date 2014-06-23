@@ -423,6 +423,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Trebuchet" name="TEAM-Gummy/packages_apps_Trebuchet" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="TEAM-Gummy/packages_inputmethods_LatinIME" remote="tg" revision="kk4.4" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
