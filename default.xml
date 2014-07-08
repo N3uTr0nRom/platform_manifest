@@ -23,12 +23,12 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="JustArchi/android_art" />
-  <project path="bionic" name="CarbonDev/android_bionic" revision="kk" groups="pdk" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r1" groups="cts" />
-  <project path="dalvik" name="LiquidSmooth/android_dalvik" revision="kitkat" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
@@ -154,15 +154,18 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" />
   <project path="external/iputils" name="platform/external/iputils" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/jack" name="CyanogenMod/android_external_jack" />
+  <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
   <project path="external/javasqlite" name="CyanogenMod/android_external_javasqlite" />
   <project path="external/javassist" name="CyanogenMod/android_external_javassist" />
   <project path="external/jdiff" name="CyanogenMod/android_external_jdiff" />
   <project path="external/jhead" name="CyanogenMod/android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="CyanogenMod/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="CyanogenMod/android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
+  <project path="external/jpeg" name="Velocity-Project/external_jpeg" groups="pdk" revision="4.4.3" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
+  <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" />
+  <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
@@ -184,7 +187,7 @@
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
   <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="Velocity-Project/external_libpng" groups="pdk" revision="4.4.3" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
@@ -251,13 +254,15 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/skia" name="Velocity-Project/skia" revision="4.4.3" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
+  <project path="external/sqlite" name="Velocity-Project/external_sqlite" groups="pdk" revision="4.4.3" />
+  <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
+  <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
@@ -330,7 +335,6 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" groups="caf" />
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
@@ -360,7 +364,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="cristianomatos/android_packages_apps_CMAccount" />
-  <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -385,7 +388,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Torch" name="Velocity-Project/torch" revision="4.4.4" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -395,13 +398,9 @@
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="cristianomatos/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="cristianomatos/android_packages_providers_MediaProvider" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
-  <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
-  <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Telephony" name="cristianomatos/android_packages_services_Telephony" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r1" groups="pdk" />
