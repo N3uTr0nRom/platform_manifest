@@ -47,7 +47,6 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" />
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
