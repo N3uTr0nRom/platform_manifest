@@ -22,7 +22,7 @@
   </project>
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" />
+  <project path="art" name="CM11MOD/android_art" revision="kk-mr2" />
   <project path="bionic" name="CarbonDev/android_bionic" revision="kk" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
