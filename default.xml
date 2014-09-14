@@ -59,24 +59,24 @@
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
-  <project path="external/antlr" name="CyanogenMod/android_external_antlr" />
-  <project path="external/apache-harmony" name="CyanogenMod/android_external_apache-harmony" />
-  <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
-  <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" />
-  <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
-  <project path="external/arduino" name="CyanogenMod/android_external_arduino" />
+  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
-  <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
+  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
-  <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
-  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
@@ -110,33 +110,33 @@
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
-  <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="CyanogenMod/android_external_doclava" />
-  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
+  <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
-  <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" />
   <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
-  <project path="external/emma" name="CyanogenMod/android_external_emma" />
-  <project path="external/esd" name="CyanogenMod/android_external_esd" />
+  <project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
-  <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
-  <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
-  <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
-  <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
-  <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" groups="pdk" />
+  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
   <project path="external/google" name="CyanogenMod/android_external_google" />
