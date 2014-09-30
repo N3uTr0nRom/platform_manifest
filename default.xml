@@ -48,7 +48,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
-  <project path="kernel/motorola/msm8226" name="TEAM-Gummy/android_kernel_motorola_msm8226" revision="kk4.4" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
@@ -296,7 +296,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="cristianomatos/android_frameworks_base" />
+  <project path="frameworks/base" name="n5x/n5x_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -369,17 +369,17 @@
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMAccount" name="cristianomatos/android_packages_apps_CMAccount" />
+  <project path="packages/apps/CMAccount" name="n5x/n5x_packages_apps_CMAccount" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="cristianomatos/android_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="n5x/n5x_packages_apps_Dialer" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/InCallUI" name="cristianomatos/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="n5x/n5x_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/Mms" name="cristianomatos/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
@@ -387,7 +387,7 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/Settings" name="cristianomatos/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="n5x/n5x_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -402,12 +402,12 @@
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="cristianomatos/android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="n5x/n5x_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="cristianomatos/android_packages_providers_MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/services/Telephony" name="cristianomatos/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="n5x/n5x_packages_services_Telephony" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilt" name="SlimRoms/android_prebuilt" revision="kk4.4" />
