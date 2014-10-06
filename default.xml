@@ -23,7 +23,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="art" name="N3uTr0nRom/android_art" />
-  <project path="bionic" name="XPerience-AOSP/android_bionic" groups="pdk" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
@@ -48,7 +48,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
-  <project path="kernel/motorola/msm8226" name="N3uTr0nRom/android_kernel_motorola_msm8226" revision="back" />
+  <project path="kernel/motorola/msm8226" name="N3uTr0nRom/android_kernel_motorola_msm8226" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
