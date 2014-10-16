@@ -25,7 +25,7 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="art" name="N3uTr0nRom/android_art" />
+  <project path="art" name="N3uTr0nRom/android_art" revision="air" />
   <project path="bionic" name="vakkasa/android_bionic" groups="pdk" revision="master" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
