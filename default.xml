@@ -52,7 +52,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
   <project path="kernel/motorola/msm8226" name="LiquidSmooth-Devices/android_kernel_motorola_msm8226" revision="kitkat" />
-  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
+  <project path="device/motorola/msm8226-common" name="N3uTr0nRom/android_device_motorola_msm8226-common" revision="air" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
