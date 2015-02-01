@@ -53,7 +53,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
-  <project path="kernel/motorola/msm8226" name="knizmi/android_kernel_motorola_msm8226" />
+  <project path="kernel/motorola/msm8226" name="XPerience-AOSP-Lollipop/android_kernel_motorola_msm8226" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
