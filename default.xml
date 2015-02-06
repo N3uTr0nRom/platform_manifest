@@ -52,7 +52,7 @@
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="device/motorola/falcon" name="h2o64/android_device_motorola_falcon" revision="lp5.0" />
-  <project path="device/motorola/msm8226-common" name="fozzil4/android_device_motorola_msm8226-common" revision="air" />
+  <project path="device/motorola/msm8226-common" name="h2o64/android_device_motorola_msm8226-common" revision="lp5.0" />
   <project path="kernel/motorola/msm8226" name="fozzil4/android_kernel_motorola_msm8226" revision="air" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
