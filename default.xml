@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="fozzil4/android_build" groups="pdk,tradefed" revision="22215fe4b9ad74526a0c168c904ca789af04a5cd" >
+  <project path="build" name="XPerience-AOSP-Lollipop" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -51,9 +51,9 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
-  <project path="device/motorola/msm8226-common" name="fozzil4/android_device_motorola_msm8226-common" revision="air" />
-  <project path="kernel/motorola/msm8226" name="fozzil4/android_kernel_motorola_msm8226" revision="air" />
+  <project path="device/motorola/falcon" name="XPerience-AOSP-Lollipop/android_device_motorola_falcon" />
+  <project path="device/motorola/msm8226-common" name="XPerience-AOSP-Lollipop/android_device_motorola_msm8226-common" />
+  <project path="kernel/motorola/msm8226" name="XPerience-AOSP-Lollipop/android_kernel_motorola_msm8226" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -528,7 +528,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="XPerience-AOSP-Lollipop/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -541,7 +541,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="vendor/cm" name="fozzil4/android_vendor_cm" revision="air" />
+  <project path="vendor/cm" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
+  <project path="vendor/motorola" name="XPerience-AOSP-Lollipop/proprietary_vendor_motorola" />
 </manifest>
