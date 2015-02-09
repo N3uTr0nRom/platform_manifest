@@ -51,7 +51,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="device/motorola/falcon" name="XPerience-AOSP-Lollipop/android_device_motorola_falcon" />
+  <project path="device/motorola/falcon" name="XPerience-AOSP-Lollipop/android_device_motorola_falcon" revision="800af98e6b6023e449b2561c80e265c1505b0f2d" />
   <project path="device/motorola/msm8226-common" name="XPerience-AOSP-Lollipop/android_device_motorola_msm8226-common" />
   <project path="kernel/motorola/msm8226" name="XPerience-AOSP-Lollipop/android_kernel_motorola_msm8226" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
