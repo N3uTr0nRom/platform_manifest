@@ -24,7 +24,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="Euphoria-OS-Legacy/android_bionic" groups="pdk" revision="lollipop" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -55,7 +55,7 @@
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
   <project path="device/motorola/msm8226-common" name="fozzil4/android_device_motorola_msm8226-common" revision="air" />
   <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" groups="qcom" />
-  <project path="kernel/motorola/msm8226" name="alin23/android_kernel_motorola_msm8226" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
@@ -550,5 +550,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="fozzil4/android_vendor_cm" revision="air" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/motorola" name="AOSParadox/proprietary_vendor_motorola" revision="lollipop" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
 </manifest>
