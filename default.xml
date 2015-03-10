@@ -185,7 +185,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jpeg" name="OptiPop/external_jpeg" groups="pdk" revision="master" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
@@ -293,7 +293,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="OptiPop/external_skia" groups="pdk-cw-fs,qcom_msm8x26" revision="master" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
@@ -416,7 +416,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-   <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
@@ -453,6 +453,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" remote="aosp" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
