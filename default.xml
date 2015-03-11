@@ -24,7 +24,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="AndroidOpenDevelopment/android_art" groups="pdk" revision="lp" />
-  <project path="bionic" name="aod-rn/android_bionic" groups="pdk" revision="lp" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="Euphoria-OS-Legacy/android_bootable_recovery" groups="pdk" revision="lollipop" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
