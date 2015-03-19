@@ -23,7 +23,7 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="art" name="AndroidOpenDevelopment/android_art" groups="pdk" revision="lp" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="Euphoria-OS-Legacy/android_bootable_recovery" groups="pdk" revision="lollipop" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" />
@@ -55,7 +55,7 @@
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
   <project path="device/motorola/msm8226-common" name="fozzil4/android_device_motorola_msm8226-common" revision="air" />
   <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" groups="qcom" />
-  <project path="kernel/motorola/msm8226" name="fozzil4/android_kernel_motorola_msm8226" revision="air" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
@@ -85,7 +85,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium_org" name="arter97/android_external_chromium_org" />
+  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" />
