@@ -333,7 +333,7 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="SOKP/frameworks_av" revision="sokp-l5" />
   <project path="frameworks/base" name="SOKP/frameworks_base" revision="sokp-l5" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
