@@ -57,7 +57,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
-  <project path="kernel/motorola/msm8226" name="hurtsky/android_kernel_motorola_msm8226" revision="cm-12.1-hurtsky-s2w-dt2w" />
+  <project path="kernel/motorola/msm8226" name="desaishivam26/android_kernel_motorola_msm8226" revision="optimus" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
