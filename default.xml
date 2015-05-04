@@ -576,4 +576,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="fozzil4/android_vendor_cm" revision="air" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
