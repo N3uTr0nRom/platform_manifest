@@ -27,7 +27,7 @@
   
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" revision="lp5.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -188,7 +188,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jpeg" name="OptiPop/external_jpeg" groups="pdk" revision="opti-5.1" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
@@ -219,7 +219,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="OptiPop/external_libpng" groups="pdk" revision="opti-5.1" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
