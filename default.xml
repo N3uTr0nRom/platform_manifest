@@ -343,7 +343,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="temasek/android_frameworks_base" />
+  <project path="frameworks/base" name="PAC-ROM/android_frameworks_base" revision="pac-5.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -357,7 +357,6 @@
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
-  <project path="frameworks/opt/cards" name="temasek/frameworks_opt_cards" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
@@ -460,27 +459,27 @@
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <project path="packages/apps/Contacts" name="temasek/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="temasek/android_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="temasek/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="temasek/android_packages_apps_Mms-caf" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/SetupWizard" name="temasek/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" />
+  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/Settings" name="PAC-ROM/android_packages_apps_Settings" revision="pac-5.1" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
