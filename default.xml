@@ -347,24 +347,24 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
-  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
-  <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
-  <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
-  <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
-  <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
+  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
-  <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" revision="lp5.1" />
-  <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
-  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
-  <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
-  <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="aosp" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" remote="aosp" />
