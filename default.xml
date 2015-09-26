@@ -378,7 +378,7 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/webview" name="zephiK/android_frameworks_webview" groups="pdk-cw-fs" revision="lp5.1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" remote="aosp" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
