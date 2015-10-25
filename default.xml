@@ -307,7 +307,7 @@
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="dalvik" name="VRToxin/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="mm6.0" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
