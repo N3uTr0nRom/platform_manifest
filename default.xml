@@ -38,9 +38,9 @@
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
-  <project path="device/motorola/falcon" name="srisurya95/android_device_motorola_falcon" revision="cm13" />
-  <project path="device/motorola/msm8226-common" name="srisurya95/android_device_motorola_msm8226-common" revision="cm13" />
-  <project path="kernel/motorola/msm8226" name="srisurya95/android_kernel_motorola_msm8226" revision="cm13" />
+  <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" />
+  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
