@@ -19,7 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="fozzil4/android_build" groups="pdk" revision="air" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CyanogenMod/android" />
