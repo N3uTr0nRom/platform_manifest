@@ -555,6 +555,8 @@
   <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" />
   <project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
