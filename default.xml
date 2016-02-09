@@ -12,6 +12,9 @@
 
   <remote name="bitbucket" 
            fetch="https://bitbucket.org/" />
+           
+  <remote name="aroma"
+           fetch="https://github.com/amarullz" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -556,6 +559,7 @@
   <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" />
   <project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+  <project path="external/aroma-installer" name="AROMA-Installer" remote="aroma" revision="master" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" />
