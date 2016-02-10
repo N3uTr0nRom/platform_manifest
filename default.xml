@@ -12,12 +12,6 @@
 
   <remote name="bitbucket" 
            fetch="https://bitbucket.org/" />
-           
-  <remote name="aroma"
-           fetch="https://github.com/amarullz" />
-           
-  <remote name="twrp"
-           fetch="https://github.com/TeamWin" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -34,7 +28,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="Team-Win-Recovery-Project" groups="pdk" revision="android-6.0" />
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" groups="pdk" revision="android-6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
@@ -562,7 +556,7 @@
   <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" />
   <project path="device/motorola/msm8916-common" name="DominionOS/device_motorola_msm8916-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="external/aroma-installer" name="AROMA-Installer" remote="aroma" revision="master" />
+  <project path="external/aroma-installer" name="amarullz/AROMA-Installer" remote="aroma" revision="master" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="kernel/motorola/msm8916" name="sultanqasim/android_kernel_motorola_msm8916" revision="squid_marshmallow" />
