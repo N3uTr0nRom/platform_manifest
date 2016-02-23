@@ -518,7 +518,6 @@
   <!-- MOTO -->
   <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" remote="gh" revision="cm-13.0" />
   <project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" remote="gh" revision="cm-13.0" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" revision="cm-13.0" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-13.0" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" revision="cm-13.0" />
   <project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" remote="gh" revision="cm-13.0" />
