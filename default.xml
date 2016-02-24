@@ -6,6 +6,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r16" />
 
+  <remote  name="caf"
+           fetch="git://codeaurora.org/" 
+           review="codeaurora.org" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -500,7 +504,7 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
-  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
+  <project path="pdk" name="platform/pdk" groups="pdk" remote="caf" revision="LA.BR.1.3.4" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
