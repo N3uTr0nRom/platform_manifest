@@ -30,8 +30,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="jgcaaprom/android_art" groups="pdk" />
-  <project path="bionic" name="jgcaaprom/android_bionic" groups="pdk" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -214,7 +214,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="jgcaaprom/android_libcore" groups="pdk" />
+  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -527,7 +527,7 @@
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="kernel/motorola/msm8916" name="fozzil4/android_kernel_motorola_msm8916" revision="air" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-5.3" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="xanaxdroid/arm-eabi-5.3" groups="pdk,linux,arm" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="vendor/motorola" name="moto8916/proprietary_vendor_motorola" revision="cm-13.0_msm8916" />
 <!-- END MOTO -->
