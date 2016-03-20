@@ -516,15 +516,15 @@
 <!-- END AOSP -->
 
 <!-- MOTO -->
-  <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" />
-  <project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" />
+  <project path="device/motorola/osprey" name="CyanogenMod/android_device_motorola_osprey" />
+  <project path="device/motorola/msm8916-common" name="CyanogenMod/android_device_motorola_msm8916-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="kernel/motorola/msm8916" name="fozzil4/android_kernel_motorola_msm8916" revision="air" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="xanaxdroid/arm-eabi-5.3" groups="pdk,linux,arm" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="xanaxdroid/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="sabermod" />
-  <project path="vendor/motorola" name="moto8916/proprietary_vendor_motorola" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
 <!-- END MOTO -->
 
 </manifest>
