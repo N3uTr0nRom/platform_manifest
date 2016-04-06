@@ -524,8 +524,8 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
-  <project path="kernel/motorola/msm8916" name="sultanqasim/android_kernel_motorola_msm8916" revision="squid_marshmallow" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="xanaxdroid/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="sabermod" />
+  <project path="kernel/motorola/msm8916" name="CyanogenMod/android_kernel_motorola_msm8916" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="xanaxdroid/arm-eabi-6.0" groups="pdk,linux,arm" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="xanaxdroid/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="sabermod" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
 <!-- END MOTO -->
