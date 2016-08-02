@@ -55,7 +55,6 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
-  <project path="external/chromium-webview" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
   <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
@@ -222,7 +221,6 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
@@ -510,9 +508,10 @@
   <project path="device/motorola/osprey" name="CyanogenMod/android_device_motorola_osprey" />
   <project path="device/motorola/msm8916-common" name="CyanogenMod/android_device_motorola_msm8916-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+  <project path="external/chromium-webview" name="ScrewdAOSP/external_chromium-webview" revision="m" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
-  <project path="kernel/motorola/msm8916" name="desaishivam26/Optimus_Osprey" />
+  <project path="kernel/motorola/msm8916" name="ShieldKteam/shield_osprey" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="DespairFactor/arm-eabi-5.x" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
