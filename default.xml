@@ -508,7 +508,7 @@
   <project path="device/motorola/osprey" name="CyanogenMod/android_device_motorola_osprey" />
   <project path="device/motorola/msm8916-common" name="CyanogenMod/android_device_motorola_msm8916-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="external/chromium-webview" name="ScrewdAOSP/external_chromium-webview" revision="m" />
+  <project path="external/chromium-webview" name="TeamOrion/external_chromium-webview" revision="6.0.1" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="kernel/motorola/msm8916" name="ShieldKteam/shield_osprey" />
