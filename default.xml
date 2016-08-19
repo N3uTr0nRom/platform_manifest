@@ -510,7 +510,7 @@
   <project path="external/chromium-webview" name="TeamOrion/external_chromium-webview" revision="6.0.1" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
-  <project path="kernel/motorola/msm8916" name="desaishivam26/Optimus_Osprey" />
+  <project path="kernel/motorola/msm8916" name="FireLord1/android_kernel_motorola_msm8916" revision="FireKernel-mm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="DespairFactor/arm-eabi-5.x" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
