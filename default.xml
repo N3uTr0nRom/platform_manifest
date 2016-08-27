@@ -167,7 +167,6 @@
   <project path="frameworks/opt/net/wifi" name="VanirAOSP/frameworks_opt_net_wifi" groups="pdk" revision="m6" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
@@ -510,6 +509,7 @@
   <project path="external/chromium-webview" name="TeamOrion/external_chromium-webview" revision="6.0.1" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  <project path="frameworks/opt/telephony" name="N3uTr0nRom/android_frameworks_opt_telephony" groups="pdk" revision="wrx" />
   <project path="kernel/motorola/msm8916" name="N3uTr0nRom/android_kernel_motorola_msm8916" revision="wrx" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="DespairFactor/arm-eabi-5.x" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
