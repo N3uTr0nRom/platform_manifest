@@ -511,7 +511,7 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="frameworks/opt/telephony" name="N3uTr0nRom/android_frameworks_opt_telephony" groups="pdk" revision="wrx" />
   <project path="kernel/motorola/msm8916" name="N3uTr0nRom/android_kernel_motorola_msm8916" revision="wrx" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="mdalexca/arm-eabi-5.x-linaro" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
 <!-- END MOTO -->
